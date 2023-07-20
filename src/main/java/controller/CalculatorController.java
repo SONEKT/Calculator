@@ -41,7 +41,7 @@ public class CalculatorController {
         if (num2 == 0) {
             return "Делить на 0 нельзя";
         }
-        return calculatorService.plus(num1, num2);
+        return calculatorService.divide(num1, num2);
 
     }
 }
