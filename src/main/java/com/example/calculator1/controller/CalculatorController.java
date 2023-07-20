@@ -1,10 +1,10 @@
-package controller;
+package com.example.calculator1.controller;
 
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
-import service.CalculatorService;
+import com.example.calculator1.service.CalculatorService;
 
 @RestController
 @RequestMapping("/calculator")
